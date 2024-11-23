@@ -1,0 +1,24 @@
+title: "VC Firms Database"
+description: "A database of venture capital firms"
+baseurl: "/vc-firms-database"
+url: "https://projectstartups.github.io"
+permalink: /:year/:month/:day/:title/
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Optional: Specify markdown processor
+markdown: kramdown
+
+# Defaults for posts
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+# Repository-specific settings
+repository: projectstartups/vc-firms-database
