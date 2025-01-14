@@ -22,5 +22,10 @@ defaults:
     values:
       layout: post
 
+# Pagination Settings
+pagination:
+  per_page: 10
+  permalink: "/page:num/"
+
 # Repository-specific settings
 repository: vcdatabase/vcdatabase
